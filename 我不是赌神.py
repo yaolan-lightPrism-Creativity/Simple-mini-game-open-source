@@ -3,18 +3,18 @@ b=0
 import random
 while a==0:
     print("""[我不是赌神]
-          【1】
-          【2】
-          【3】
-          【4】
+          【1】开始游戏
+          【2】游戏市场
+          【3】关于我们
+          【4】退出游戏
           您的积分：""",b)
     way=int(input("请输入您的操作（输入数字）："))
     if way==1:
         print("""请选择游戏模式
-              [1]
-              [2]
-              [3]
-              [4]""")
+              [1]业余模式
+              [2]专家模式
+              [3]噩梦模式
+              [4]不开玩不了""")
         mod=int(input("请输入您的操作（输入数字）："))
         if mod==1:
             num=random.randint(1,10)
@@ -74,9 +74,12 @@ while a==0:
                 quit=input("任意输入以返回")
                 continue
             continue
+        continue
+    elif way==2:
+
     elif way==4:
         a+=1
         continue
     continue
-print("""           您已退出游戏，若想再次打开，请关闭该窗口
-You've quit the game, and if you want to open it again, close the window.""")
+print("""           【您已退出游戏，若想再次打开，请关闭该窗口。】
+【You've quit the game, and if you want to open it again, close the window.】""")
