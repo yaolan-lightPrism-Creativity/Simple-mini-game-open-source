@@ -1230,7 +1230,7 @@ style skip_text:
 
 style skip_triangle:
     ## 我们必须使用包含“▸”（黑色右旋小三角）字形的字体。
-    font "DejaVuSans.ttf"
+    font "msyhl.ttc"
 
 
 ## 通知屏幕 ########################################################################
